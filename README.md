@@ -6,17 +6,17 @@
 ## Horarios:
 Lunes, miércoles y viernes 07:00pm (19 hrs) hora de la Ciudad de México
 
-7pm 🇲🇽 🇬🇹 🇸🇻 🇨🇷 🇭🇳 🇳🇮
+- 7pm Ciudad de México, Guatemala, 🇸🇻 Costa Rica, Honduras 🇳🇮
 
-8pm 🇨🇴 🇵🇪 🇪🇨 🇵🇦 🇨🇺
+8pm Colombia, Perú, Ecuador, Panama, Cuba
 
-10pm 🇨🇱 🇦🇷 🇺🇾 🇵🇾
+10pm Chile Argentina 🇺🇾 🇵🇾
 
-2h 🇪🇸
+2h España
 
-9pm 🇧🇴 🇩🇴 🇻🇪
+9pm Bolivia 🇩🇴 🇻🇪
 
-5pm 🇺🇸 PT
+5pm Estados Unidos PT
 
 
 ## ¿Qué es lo que veremos?
