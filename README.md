@@ -3,6 +3,8 @@
 
 [Aquí puedes entrar a las sesiones](https://www.twitch.tv/brujeriatech)
 
+[Aquí puedes ver las sesiones grabadas](https://youtube.com/playlist?list=PLtuKa5gcqmZpyhewmuZGdADXXYOF6MfFt)
+
 ## Horarios:
 Lunes, miércoles y viernes 07:00pm (19 hrs) hora de la Ciudad de México
 
