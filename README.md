@@ -29,6 +29,7 @@ En el curso de programación en vivo vamos a ver las siguientes cosas:
 
 ### Nivel 1 - Intro a la programación
 1. Introducción a Git y GitHub
+   1. [Código markdown de ejemplo del README](/docs/ejemplo_readme.md)
 2. Prework
 3. Introducción a la logica de programación
 4. Matemáticas para programación
@@ -48,7 +49,7 @@ En el curso de programación en vivo vamos a ver las siguientes cosas:
    8. Bibliotecas
    9. Errores y excepciones
 8. Algoritmos 
-9. Estructuras de datos
+9.  Estructuras de datos
 10. Productividad de código (shortcuts and snippets) 
 
 ### Nivel 2 - Intermedio de Python
