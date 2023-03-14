@@ -8,7 +8,7 @@
 ## Horarios:
 Lunes, miércoles y viernes 07:00pm (19 hrs) hora de la Ciudad de México
 
-- 7pm Ciudad de México, Guatemala, 🇸🇻 Costa Rica, Honduras 🇳🇮
+- 7pm Ciudad de México, Guatemala, 🇸🇻 Costa Rica, Honduras, Nicaragua
 
 8pm Colombia, Perú, Ecuador, Panama, Cuba
 
