@@ -1,8 +1,20 @@
 # Prework
-Instalar y dejar listo todo tu entorno de programación para comenzar a trabajar
+En este modulo se abarca la instalación y configuración de las herramientas necesarias, para trabajar en el curso, teniendo en cuenta los tres Sistemas Operativos comerciales. 
 
 Aquí puedes descargar: 
 - Git --> https://git-scm.com/downloads
+
+	<details>
+		<summary>Windows</summary>
+        1.- Decargar el ejecutable en su ultima versión
+        2.- Seguir las instrucciones hasta el final
+        3.- Abrir cmd
+        4.- verificar la instalación con
+        ```
+        git --version
+        ```
+	</details>
+
 - VS Code --> https://code.visualstudio.com/download
 - Python --> desde Microsoft store o https://www.python.org/downloads/
 - PSeInt --> https://pseint.sourceforge.net/?page=descargas.php
@@ -20,62 +32,22 @@ Aquí puedes descargar:
 
 | Nombre | URL |
 | --------- |-------|
-| Microsoft Edge Tools for VS Code| <a href="https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools"><img src="https://tinyurl.com/2zzjkdbv" witdth="70px" height="70px"></a> |
-| Docker| <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"><img src="https://tinyurl.com/2meg2qg2" witdth="70px" height="70px"></a> |
-| Error Lens| <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens"><img src="https://tinyurl.com/2hsh4cpr" witdth="70px" height="70px"></a> |
-| Code GPT| <a href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt"><img src="https://tinyurl.com/2js5yvwe" witdth="70px" height="70px"></a> |
+|Microsoft Edge Tools for VS Code| <a href="https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools"><img src="https://tinyurl.com/2zzjkdbv" witdth="70px" height="70px"></a> |
+|Docker| <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"><img src="https://tinyurl.com/2meg2qg2" witdth="70px" height="70px"></a> |
+|Error Lens| <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens"><img src="https://tinyurl.com/2hsh4cpr" witdth="70px" height="70px"></a> |
+|Code GPT| <a href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt"><img src="https://tinyurl.com/2js5yvwe" witdth="70px" height="70px"></a> |
+|ES7+ React/Redux/React-Native snippets| <a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"><img src="https://tinyurl.com/2jkdhfom" witdth="70px" height="70px"></a> |
+|ESLint| <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"><img src="https://tinyurl.com/2fb3pckc" witdth="70px" height="70px"></a> |
+|GitHub Pull Requests and Issues| <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github"><img src="https://tinyurl.com/2zud7nqd" witdth="70px" height="70px"></a> |
+|indent-rainbow| <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow"><img src="https://tinyurl.com/2ll4cdut" witdth="70px" height="70px"></a> |
+|isort| <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.isort"><img src="https://tinyurl.com/2jz45y8b" witdth="70px" height="70px"></a> |
+|IntelliCode| <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode"><img src="https://tinyurl.com/2k368jnj" witdth="70px" height="70px"></a> |
+|Jupyter| <a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"><img src="https://tinyurl.com/2ml2lf2f" witdth="70px" height="70px"></a> |
+|JavaScript and TypeScript Nightly| <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next"><img src="https://tinyurl.com/2puxjnwy" witdth="70px" height="70px"></a> |
+|Polacode| <a href="https://marketplace.visualstudio.com/items?itemName=pnp.polacode"><img src="https://tinyurl.com/2kxs3qf6" witdth="70px" height="70px"></a> |
+|Pylance| <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"><img src="https://tinyurl.com/2fzrj5gu" witdth="70px" height="70px"></a> |
+|Python| <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"><img src="https://tinyurl.com/2m7ukkgf" witdth="70px" height="70px"></a> |
+|Stream Deck for Visual Studio Code| <a href="https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck"><img src="https://tinyurl.com/2zr9nsur" witdth="70px" height="70px"></a> |
+|vscode-pets| <a href="https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets"><img src="https://tinyurl.com/2otyb54o" witdth="70px" height="70px"></a> |
+|WSL| <a href="(https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl"><img src="https://tinyurl.com/2fduxyx7" witdth="70px" height="70px"></a> |
 
-### Microsoft Edge Tools for VS Code
-[![Microsoft Edge Tools for VS Code](https://tinyurl.com/2zzjkdbv)](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools
-)
-
-### Docker
-[![Docker](https://tinyurl.com/2meg2qg2)](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-
-### Error Lens
-[![Error Lens](https://tinyurl.com/2hsh4cpr)](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
-### Code GPT
-[![Code GPT](https://tinyurl.com/2js5yvwe)](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt)
-
-### ES7+ React/Redux/React-Native snippets
-[![React](https://tinyurl.com/2jkdhfom)](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-
-### ESLint
-[![ESLint](https://tinyurl.com/2fb3pckc)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-### GitHub Pull Requests and Issues
-[![Pull Requests](https://tinyurl.com/2zud7nqd)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-
-### indent-rainbow
-[![indent-rainbow](https://tinyurl.com/2ll4cdut)](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-
-### isort
-[![isort](https://tinyurl.com/2jz45y8b)](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
-
-### IntelliCode
-[![IntelliCode](https://tinyurl.com/2k368jnj)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-### Jupyter
-[![Jupyter](https://tinyurl.com/2ml2lf2f)](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-
-### JavaScript and TypeScript Nightly
-[![TypeScript](https://tinyurl.com/2puxjnwy)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
-
-### Polacode
-[![Polacode](https://tinyurl.com/2kxs3qf6)](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
-
-### Pylance
-[![Pylance](https://tinyurl.com/2fzrj5gu)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-
-### Python
-[![Python](https://tinyurl.com/2m7ukkgf)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
-### Stream Deck for Visual Studio Code
-[![Strem Deck](https://tinyurl.com/2zr9nsur)](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck)
-
-### vscode-pets
-[![vscode-pets](https://tinyurl.com/2otyb54o)](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
-
-### WSL
-[![WSL](https://tinyurl.com/2fduxyx7)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
