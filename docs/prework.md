@@ -6,10 +6,15 @@ Aquí puedes descargar:
 
 	<details>
 		<summary>Windows</summary>
-        1.- Decargar el ejecutable en su ultima versión
-        2.- Seguir las instrucciones hasta el final
-        3.- Abrir cmd
-        4.- verificar la instalación con
+        
+        1 Decargar el ejecutable en su ultima versión
+        
+        2 Seguir las instrucciones hasta el final
+        
+        3 Abrir cmd
+        
+        4 verificar la instalación con
+        
         ```
         git --version
         ```
