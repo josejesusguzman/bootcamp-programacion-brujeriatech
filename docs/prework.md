@@ -1,7 +1,7 @@
 # Prework
 En este modulo se abarca la instalación y configuración de las herramientas necesarias, para trabajar en el curso, teniendo en cuenta los tres Sistemas Operativos comerciales. 
 
-Aquí puedes descargar: 
+Estos son los enlaces e instrucciones para cada herramienta:
 - Git --> https://git-scm.com/downloads
 
   <details>
@@ -22,14 +22,22 @@ Aquí puedes descargar:
   
   <details>
   <summary>Linux</summary>
+  
+  1 Abrir una terminal
+  
+  2 Colocar el comando segun la distribución
 
-  1 Descargar el ejecutable en su ultima versión
-
-  2 Seguir las instrucciones y configuración por defecto
-
-  3 Abrir una terminal de CMD 
-
-  4 Verificar la instalación
+  Para distribuciones basadas en debian
+  ```
+  apt-get install git
+  ```
+  
+  Para otras distribuciones
+  ```
+  yum install git
+  ```
+  
+  3 Verificar instalación
   ```
   git --version
   ```
@@ -77,15 +85,14 @@ Aquí puedes descargar:
   <details>
   <summary>Linux</summary>
 
-  1 Descargar el ejecutable en su ultima versión
+  1 Descargar el .deb
+ 
 
-  2 Seguir las instrucciones y configuración por defecto
-
-  3 Abrir una terminal de CMD 
-
-  4 Verificar la instalación
+  2 Abrir una terminal
+  
+  3 colocar el comando 
   ```
-  git --version
+  sudo apt install ./nombrearchivo
   ```
   </details>
   
@@ -102,16 +109,354 @@ Aquí puedes descargar:
   </details>
 
 - Python --> desde Microsoft store o https://www.python.org/downloads/
+
+  <details>
+  <summary>Windows</summary>
+
+    Microsoft Store
+
+     1 Abrir la Microsoft Store
+
+     2 Buscar Python
+     
+     3 Elegir la versión
+
+     3 Instalar
+     
+     Ejecutable
+     
+     1 Descargar el ejecutable en su ultima versión
+
+     2 Seguir las instrucciones y configuración por defecto
+     
+     > Importante: Verificar la casilla para agregar el Path a las variables de entorno del sistema
+     
+     Para verificar la instalación
+     ```
+     python --version
+     ```
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Abrir una terminal
+
+  2 Colocar el comando
+  ```
+  sudo apt-get install git
+  ```
+
+  3 Verificar la instalación
+  ```
+  git --version
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+
+  1 Descargar la ultima versión
+
+  2 Abrir el archivo .pkg y seguir las instrucciones
+  
+  3 Verificar la instalación
+  ```
+  python --version
+  ```
+  </details>
+
 - PSeInt --> https://pseint.sourceforge.net/?page=descargas.php
+
+> Para cada Sistema Operativo seguir las instrccuines del sitio web
+
+- Node --> https://nodejs.org/es/download/
+
+  <details>
+  <summary>Windows</summary>
+     
+     1 Descargar el ejecutable en su ultima versión (LTS)
+
+     2 Seguir las instrucciones y configuración por defecto
+     
+     > Opcional: Verificar la casilla para instalar chocolatey
+     
+     3 Para verificar la instalación
+     ```
+     node --version
+     ```
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Abrir una terminal
+
+  2 Para instalar node
+  ```
+  sudo apt install nodejs -y
+  ```
+
+  3 Para instalar npm
+  ```
+  sudo apt install npm -y
+  ```
+  
+  4 Para verifivar node
+  ```
+  nodejs --version
+  ```
+  
+  5 Para verificar npm
+  ```
+  npm --version
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+
+  1 Abrir una terminal
+
+  2Colocar el comando
+  ```
+  brew install node
+  ```
+  </details>
+  
+- MongoDB --> https://www.mongodb.com/try/download/community
+  <details>
+  <summary>Windows</summary>
+     
+     1 Descargar el ejecutable en su ultima versión (LTS)
+
+     2 Seguir las instrucciones y configuración por defect
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Abrir una terminal
+
+  2Colocar el comando
+  ```
+  sudo apt-get install -y mongodb-org
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+  
+  mongodb community server
+
+  1 descargar el archivo .pkg
+  
+  2 Ingresar a la carpeta bin
+  
+  3 Doble clic en 
+  
+  - install compass
+  - mongodb
+  - mongos
+  
+  community edition
+  
+
+  1 Colocar el comando para descarga
+  ```
+  brew tap mongodb/brew
+  ```
+  
+  2 Actualizar homebrew
+  ```
+  brew update
+  ```
+  
+  3 Instalar mongodb
+  ```
+  brew install mongodb-community@6.0
+  ```
+  
+  </details>
+
+- MySQL Server --> https://dev.mysql.com/downloads/mysql/
+
+<details>
+  <summary>Windows</summary>
+     
+   1Descargar el ejecutable en su ultima versión
+   
+   2 Seguir las instrucciones
+   
+   > Nota: se pedira crear las credenciales del server, guardarlas para conectarse despues
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Descargar el archivo .deb
+
+  2 cd Downloads
+
+  3 Colocar los comandos
+  ``` 	
+  sudo apt install -y wget
+  sudo apt install ./nombre archivo .deb
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+  
+  mongodb community server
+
+  2 Abrir una terminal
+  
+  1 Colocar el comando para descarga
+  ```
+  brew install mysql
+  ```
+  
+  2 Actualizar homebrew
+  
+  </details>
+
+- MySQL Workbench --> https://www.mysql.com/products/workbench/
+
+<details>
+  <summary>Windows</summary>
+     
+   1Descargar el ejecutable en su ultima versión
+   
+   2 Seguir las instrucciones
+
+  </details>
+
+- MySQL Installer --> https://dev.mysql.com/downloads/installer/
+
+> Este instalador sirve para instalar el server y workbench 
+
+- Azure CLI --> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+
+<details>
+  <summary>Windows</summary>
+     
+   1 Descargar el ejecutable en su ultima versión
+   
+   2 seguir instrucciones
+   
+   3 Abrir un CMD
+   
+   2 Para verificar
+  ```
+  az
+  ```  
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Escoger el archivo conforme a la distribución
+
+  2 Seguir instrucciones del sitio web
+  
+  2 Para verificar
+  ```
+  az
+  ```
+  
+  > Nota: si no se instalo, aparace una pregunta para poder hacerlo, introducir y/Y.
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary> 
+
+  1 Colocar el comando para descarga y actualización de homebrew
+  ```
+  brew update && brew install azure-cli
+  ```
+  
+  2 Si pide reinstalar
+  ```
+  brew reinstall azure-cli
+  ```
+  
+  </details>
+  
+  Para iniciar sesión en Azure colocar
+  ```
+ az login
+  ```
+  
+  Se abrirar una pestaña de tu navegador iniciar sesión en tu cuenta de Azure y estara terminado el proceso
+
+- Docker --> https://www.docker.com/products/docker-desktop/
+- <details>
+  <summary>Windows</summary>
+     
+     1 Descargar el ejecutable en su ultima versión (LTS)
+
+     2 Seguir las instrucciones
+     
+     3 Ejecutar docker
+     
+     > Nota: es caso de pedir el WSL, introducir en una terminal de CDM wsl --update
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Abrir una terminal
+
+  2 Colocar el comando
+  ```
+  sudo apt install -y docker.io
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+  
+  1 Seguir las instrucciones del sitio web
+  
+  </details>
+
+Cabe aclarar que las instrucciones para Linux son para distribuciones basadas en debian; en caso de tener una diferente siga las instrucciones que vienen en cada sitio web
+
+## Homebrew
+
+Para los usuarios Mac instalar Homebrew con el siguiente comando
+ ```
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+
+## Virtualización
+
+Si tienes Windows y quieres trabajar en Linux, puede virtualizar Kali Linux con los siguientes recursos.
+
 - VirtualBox --> https://www.virtualbox.org/wiki/Downloads
 - Kali Linux --> https://www.kali.org/get-kali/
-- Node --> https://nodejs.org/es/download/
-- MongoDB --> https://www.mongodb.com/try/download/community
-- MySQL Server --> https://dev.mysql.com/downloads/mysql/
-- MySQL Workbench --> https://www.mysql.com/products/workbench/
-- MySQL Installer --> https://dev.mysql.com/downloads/installer/
-- Azure CLI --> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
-- Docker --> https://www.docker.com/products/docker-desktop/
+- Curso Udemy: Kali Linux. Instalación, comandos y practica de herramientas --> https://tinyurl.com/2lvtr5qn
+
+### ¿Porque Kali Linux?
+Tiene la ventaja de tener instaladas mas herramientas que en otras distribuciones, por lo que solo tendras que actualizarlas.
 
 ## Extensiones para VSCode:
 
