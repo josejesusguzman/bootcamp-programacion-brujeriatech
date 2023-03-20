@@ -405,38 +405,38 @@ Estos son los enlaces e instrucciones para cada herramienta:
   Se abrirar una pestaña de tu navegador iniciar sesión en tu cuenta de Azure y estara terminado el proceso
 
 - Docker --> https://www.docker.com/products/docker-desktop/
- <details>
-  <summary>Windows</summary>
-     
-     1 Descargar el ejecutable en su ultima versión (LTS)
+   <details>
+    <summary>Windows</summary>
 
-     2 Seguir las instrucciones
-     
-     3 Ejecutar docker
-     
-     > Nota: es caso de pedir el WSL, introducir en una terminal de CDM wsl --update
-    
-  </details>
-  
-  
-  <details>
-  <summary>Linux</summary>
+       1 Descargar el ejecutable en su ultima versión (LTS)
 
-  1 Abrir una terminal
+       2 Seguir las instrucciones
 
-  2 Colocar el comando
-  ```
-  sudo apt install -y docker.io
-  ```
-  </details>
-  
-  
-  <details>
-  <summary>Mac</summary>
-  
-  1 Seguir las instrucciones del sitio web
-  
-  </details>
+       3 Ejecutar docker
+
+       > Nota: es caso de pedir el WSL, introducir en una terminal de CDM wsl --update
+
+    </details>
+
+
+    <details>
+    <summary>Linux</summary>
+
+    1 Abrir una terminal
+
+    2 Colocar el comando
+    ```
+    sudo apt install -y docker.io
+    ```
+    </details>
+
+
+    <details>
+    <summary>Mac</summary>
+
+    1 Seguir las instrucciones del sitio web
+
+    </details>
 
 Cabe aclarar que las instrucciones para Linux son para distribuciones basadas en debian; en caso de tener una diferente siga las instrucciones que vienen en cada sitio web
 
