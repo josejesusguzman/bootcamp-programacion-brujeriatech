@@ -290,59 +290,59 @@ Estos son los enlaces e instrucciones para cada herramienta:
 
 - MySQL Server --> https://dev.mysql.com/downloads/mysql/
 
-<details>
-  <summary>Windows</summary>
-     
-   1Descargar el ejecutable en su ultima versión
-   
-   2 Seguir las instrucciones
-   
-   > Nota: se pedira crear las credenciales del server, guardarlas para conectarse despues
-    
-  </details>
-  
-  
   <details>
-  <summary>Linux</summary>
+    <summary>Windows</summary>
 
-  1 Descargar el archivo .deb
+     1Descargar el ejecutable en su ultima versión
 
-  2 cd Downloads
+     2 Seguir las instrucciones
 
-  3 Colocar los comandos
-  ``` 	
-  sudo apt install -y wget
-  sudo apt install ./nombre archivo .deb
-  ```
-  </details>
-  
-  
-  <details>
-  <summary>Mac</summary>
-  
-  mongodb community server
+     > Nota: se pedira crear las credenciales del server, guardarlas para conectarse despues
 
-  2 Abrir una terminal
-  
-  1 Colocar el comando para descarga
-  ```
-  brew install mysql
-  ```
-  
-  2 Actualizar homebrew
-  
-  </details>
+    </details>
+
+
+    <details>
+    <summary>Linux</summary>
+
+    1 Descargar el archivo .deb
+
+    2 cd Downloads
+
+    3 Colocar los comandos
+    ``` 	
+    sudo apt install -y wget
+    sudo apt install ./nombre archivo .deb
+    ```
+    </details>
+
+
+    <details>
+    <summary>Mac</summary>
+
+    mongodb community server
+
+    2 Abrir una terminal
+
+    1 Colocar el comando para descarga
+    ```
+    brew install mysql
+    ```
+
+    2 Actualizar homebrew
+
+    </details>
 
 - MySQL Workbench --> https://www.mysql.com/products/workbench/
 
-<details>
-  <summary>Windows</summary>
-     
-   1Descargar el ejecutable en su ultima versión
-   
-   2 Seguir las instrucciones
+  <details>
+    <summary>Windows</summary>
 
-  </details>
+     1Descargar el ejecutable en su ultima versión
+
+     2 Seguir las instrucciones
+
+    </details>
 
 - MySQL Installer --> https://dev.mysql.com/downloads/installer/
 
@@ -350,62 +350,62 @@ Estos son los enlaces e instrucciones para cada herramienta:
 
 - Azure CLI --> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 
-<details>
-  <summary>Windows</summary>
-     
-   1 Descargar el ejecutable en su ultima versión
-   
-   2 seguir instrucciones
-   
-   3 Abrir un CMD
-   
-   2 Para verificar
-  ```
-  az
-  ```  
-  </details>
-  
-  
   <details>
-  <summary>Linux</summary>
+    <summary>Windows</summary>
 
-  1 Escoger el archivo conforme a la distribución
+     1 Descargar el ejecutable en su ultima versión
 
-  2 Seguir instrucciones del sitio web
-  
-  2 Para verificar
-  ```
-  az
-  ```
-  
-  > Nota: si no se instalo, aparace una pregunta para poder hacerlo, introducir y/Y.
-  </details>
-  
-  
-  <details>
-  <summary>Mac</summary> 
+     2 seguir instrucciones
 
-  1 Colocar el comando para descarga y actualización de homebrew
-  ```
-  brew update && brew install azure-cli
-  ```
+     3 Abrir un CMD
+
+     2 Para verificar
+    ```
+    az
+    ```  
+    </details>
+
+
+    <details>
+    <summary>Linux</summary>
+
+    1 Escoger el archivo conforme a la distribución
+
+    2 Seguir instrucciones del sitio web
+
+    2 Para verificar
+    ```
+    az
+    ```
+
+    > Nota: si no se instalo, aparace una pregunta para poder hacerlo, introducir y/Y.
+    </details>
+
+
+    <details>
+    <summary>Mac</summary> 
+
+    1 Colocar el comando para descarga y actualización de homebrew
+    ```
+    brew update && brew install azure-cli
+    ```
+
+    2 Si pide reinstalar
+    ```
+    brew reinstall azure-cli
+    ```
+
+    </details>
   
-  2 Si pide reinstalar
-  ```
-  brew reinstall azure-cli
-  ```
-  
-  </details>
-  
-  Para iniciar sesión en Azure colocar
-  ```
- az login
-  ```
+    Para iniciar sesión en Azure colocar
+    ```
+    az login
+    ```
   
   Se abrirar una pestaña de tu navegador iniciar sesión en tu cuenta de Azure y estara terminado el proceso
 
 - Docker --> https://www.docker.com/products/docker-desktop/
-- <details>
+ <details>
   <summary>Windows</summary>
      
      1 Descargar el ejecutable en su ultima versión (LTS)
