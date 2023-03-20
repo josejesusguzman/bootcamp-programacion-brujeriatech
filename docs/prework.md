@@ -4,23 +4,103 @@ En este modulo se abarca la instalación y configuración de las herramientas ne
 Aquí puedes descargar: 
 - Git --> https://git-scm.com/downloads
 
-	<details>
-		<summary>Windows</summary>
-        
-        1 Decargar el ejecutable en su ultima versión
-        
-        2 Seguir las instrucciones hasta el final
-        
-        3 Abrir cmd
-        
-        4 verificar la instalación con
-        
-        ```
-        git --version
-        ```
-	</details>
+  <details>
+  <summary>Windows</summary>
+
+  1 Descargar el ejecutable en su ultima versión
+
+  2 Seguir las instrucciones y configuración por defecto
+
+  3 Abrir una terminal de CMD 
+
+  4 Verificar la instalación
+  ```
+  git --version
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Descargar el ejecutable en su ultima versión
+
+  2 Seguir las instrucciones y configuración por defecto
+
+  3 Abrir una terminal de CMD 
+
+  4 Verificar la instalación
+  ```
+  git --version
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+
+  1 Abrir una terminal
+
+  2 Colocar el comando
+  ```
+  brew install git
+  ```
+
+  3 Verificar instalación
+  ```
+  git --version
+  ```
+  </details>
 
 - VS Code --> https://code.visualstudio.com/download
+
+  <details>
+  <summary>Windows</summary>
+
+    Microsoft Store
+
+     1 Abrir la Microsoft Store
+
+     2 Buscar visual studio code
+
+     3 Instalar
+     
+     Ejecutable
+     
+     1 Descargar el ejecutable en su ultima versión
+
+     2 Seguir las instrucciones y configuración por defecto
+    
+  </details>
+  
+  
+  <details>
+  <summary>Linux</summary>
+
+  1 Descargar el ejecutable en su ultima versión
+
+  2 Seguir las instrucciones y configuración por defecto
+
+  3 Abrir una terminal de CMD 
+
+  4 Verificar la instalación
+  ```
+  git --version
+  ```
+  </details>
+  
+  
+  <details>
+  <summary>Mac</summary>
+
+  1 Abrir una terminal
+
+  2 Colocar el comando
+  ```
+  brew install --cask visual-studio-code
+  ```
+  </details>
+
 - Python --> desde Microsoft store o https://www.python.org/downloads/
 - PSeInt --> https://pseint.sourceforge.net/?page=descargas.php
 - VirtualBox --> https://www.virtualbox.org/wiki/Downloads
