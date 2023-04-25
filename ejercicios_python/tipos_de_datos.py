@@ -11,7 +11,6 @@ print(dato + dato)
 # La función exit cierra el programa de python
 print("💖")
 print("你好世界")
-exit()
 
 cinco = "5"
 numero = 5
