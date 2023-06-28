@@ -49,3 +49,5 @@ spidercito = Spidercito()
 spidercito.lanzar_telaraña_rosa() # Esta función viene de Gwen, la madre
 
 spidercito.activar_sentido_aracnido(peligro=True)
+
+print(isinstance(spidercito, Spiderman))
