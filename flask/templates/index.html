@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losta</title>
+</head>
+<body>
+    <h1>Lista de elementos</h1>
+    <ul>
+        {% for dato in datos %}
+        <li>{{ dato }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Añadir nuevo elemento</h2>
+    <form action="/add" method="post">
+        <input type="text" name="nombre" placeholder="Pon el nombre">
+        <input type="submit" value="Añadir">
+    </form>
+</body>
+</html>
